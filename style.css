@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Tahoma';
+  direction: rtl;
+  background: url("images/bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.6);
+  min-height: 100vh;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav a {
+  color: gold;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 150px;
+}
